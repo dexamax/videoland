@@ -31,7 +31,7 @@ body {
 @media (max-width: 768px) {
             .col-4 {
                 flex: 0 0 100%;
-                max-width: 100%;
+                max-width: 80%;
                 margin-left: 0;
                 /* Remove left margin on mobile */
                 margin-top: 20px;
@@ -39,7 +39,7 @@ body {
             }
 
             .card {
-                width: 100% !important;
+                width: 80% !important;
                 /* Ensure card takes full width */
                 margin-left: 0;
                 /* Remove any additional margin */
