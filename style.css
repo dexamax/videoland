@@ -30,8 +30,8 @@ body {
 
 @media (max-width: 768px) {
             .col-4 {
-                flex: 0 0 100%;
-                max-width: 80%;
+                flex: 0 0 80%;
+                max-width: 90%;
                 margin-left: 0;
                 /* Remove left margin on mobile */
                 margin-top: 20px;
