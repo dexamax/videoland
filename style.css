@@ -28,17 +28,23 @@ body {
 }
 
 
-@media (max-width: 1000px) {
-    .col-4 {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-left: 60px;
-    }
+@media (max-width: 768px) {
+            .col-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-left: 0;
+                /* Remove left margin on mobile */
+                margin-top: 20px;
+                /* Adjust top margin as needed */
+            }
 
-    .card {
-        width: 14rem !important; /* Change this value to adjust the card size */
-    }
-}
+            .card {
+                width: 100% !important;
+                /* Ensure card takes full width */
+                margin-left: 0;
+                /* Remove any additional margin */
+            }
+        }
 
 
 
